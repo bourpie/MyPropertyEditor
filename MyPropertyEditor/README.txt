@@ -13,6 +13,7 @@ Un paquet Nugget créé dans le cadre d'un apprentissage de création de Nugget
 
 Merci à Paul Sear pour le code:
 https://github.com/prjseal/Giphy-Property-Editor
+http://codeshare.co.uk
 
 Et le tutoriel
 https://www.youtube.com/watch?v=oo-rnuIDse4

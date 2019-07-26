@@ -7,13 +7,25 @@
       group: "media",
       editor: {
         view: "~/App_Plugins/MyPropertyEditor/MyPropertyEditor.html"
-      }
+      },
+	  "prevalues": {
+		"fields":[
+			{
+				"label": "Enter the giphy api key",
+				"description": "Your giphy api key",
+				"key": "apikey",
+				"view": "textstring"
+			}
+		]
+	  }
     }
   ],
   javascript: [
-    '~/App_Plugins/MyPropertyEditor/js/MyPropertyEditor.controller.js'
+    '~/App_Plugins/MyPropertyEditor/js/MyPropertyEditor.controller.js',
+	'~/App_Plugins/MyPropertyEditor/js/MyPicker.controller.js',
+	'~/App_Plugins/MyPropertyEditor/js/directives.js'
   ],
   css: [
-  '~/App_Plugins/MyPropertyEditor/css/MyPropertyEditor.style.css'
+	'~/App_Plugins/MyPropertyEditor/css/MyPropertyEditor.style.css'
   ]
 }

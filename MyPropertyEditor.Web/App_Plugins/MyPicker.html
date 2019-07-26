@@ -1,0 +1,29 @@
+﻿<div ng-controller="myPickerController as vm" class="giphy-picker">
+
+    <umb-editor-view>
+
+        <umb-editor-header name="model.title"
+                           name-locked="true"
+                           hide-alias="true"
+                           hide-icon="true"
+                           hide-description="true">
+        </umb-editor-header>
+
+        <umb-editor-footer>
+            <umb-editor-footer-content-left>
+                <img src="/App_Plugins/MyPropertyEditor/img/PoweredByGiphy.png" alt="Powered by Giphy" />
+            </umb-editor-footer-content-left>
+            <umb-editor-footer-content-right>
+
+                <umb-button action="close()"
+                            button-style="link"
+                            shortcut="esc"
+                            label-key="general_close"
+                            type="button">
+                </umb-button>
+            </umb-editor-footer-content-right>
+        </umb-editor-footer>
+
+    </umb-editor-view>
+
+</div>

@@ -5,4 +5,8 @@
     <ApplicationManifest>App_Plugins\MyPropertyEditor\package.manifest</ApplicationManifest>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="App_Plugins\MyPropertyEditor\img\" />
+  </ItemGroup>
+
 </Project>
